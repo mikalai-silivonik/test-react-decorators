@@ -150,6 +150,7 @@ module.exports = {
             loader: require.resolve('babel-loader'),
             options: {
               
+              plugins: ["transform-decorators-legacy"],
               compact: true,
             },
           },
